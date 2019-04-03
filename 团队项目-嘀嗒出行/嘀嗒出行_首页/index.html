@@ -1,12 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>嘀嗒出行首页</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="http://static.didapinche.com/static/h5/didahome/favicon.ico"media="screen"/>
 </head>
 <body>
-    
+    <div class="menu">
+        <!-- 布局容器 -->
+        <div class="container">
+            <!-- row用来取消container的padding的影响,从而占满屏 -->
+            <div class="row">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <!-- data-toggle="collapse"  控制元素隐藏显示的切换 -->
+                            <!-- data-target="#bs-example-navbar-collapse-1"  定位显示和隐藏切换的目标 根据id找的 -->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img class="logo" src="https://static.didapinche.com/pics//g/home/icon03.png" alt="">
+                            </a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <!-- .collapse让元素隐藏-->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="./index.html">首页</a>
+                                </li>
+                                <li class="hover-dropdown">
+                                    <a href="javascript:;" class="hover-dropdown-btn">出租车<span class="caret"></span></a>
+                                    <ul class="hover-dropdown-menu">
+                                        <li><a href="./taxi/client.html">乘客</a></li>
+                                        <li><a href="./taxi/driver.html">司机</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="./shunfengche.html">顺风车</a>
+                                </li>
+
+                                <li class="hover-dropdown hide-ms">
+
+                                    <a href="./dida.html" class="hover-dropdown-btn">关于嘀嗒<span class="caret"></span></a>
+                                    <ul class="hover-dropdown-menu">
+                                        <li><a href="./about/about.html">平台介绍</a></li>
+                                        <li><a href="./about/media.html">媒体报道</a></li>
+                                        <li><a href="./about/info.html">创始人团队</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="https://static.didapinche.com/pics//g/home/lunbo1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide"><a href="#">
+                        <img src="https://static.didapinche.com/pics//g/home/lunbo03.jpg" alt="">
+                    </a></div>
+                <div class="swiper-slide"><a href="#">
+                        <img src="https://static.didapinche.com/pics/g/didahome/0327banner3.jpg" alt="">
+                    </a></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+            </div>
+        </div>
+        <div class="phoneAndDown">
+            <img src="https://static.didapinche.com/pics//g/didahome/phone_03.png" alt="">
+            <div class="erweima">
+                <img src="images/qrcode2.jpg" alt="">
+                <div class="right">
+                    <a href=" https://www.didapinche.com/app/adstat/?ad_id=14642c91e149fc7bbf86ddacff7a92f8&ad_type=3rdparty&ad_title=%E5%AE%98%E7%BD%91%E9%A1%B5%E9%9D%A2IOS%E7%AB%AFAPP%E4%B8%8B%E8%BD%BD%E7%9B%91%E6%B5%8B&url=https%3A%2F%2Fat.umeng.com%2FjKPnOb"
+                        class="ios">iOS下载</a>
+                    <a href="http://www.didapinche.com/getapk.php?c=official&t.apk" class='android'>Android下载</a>
+                </div>
+            </div>
+        </div>
+        <div class="sub-menu">
+            <a href="about/media.html"><img src="https://static.didapinche.com/pics//g/home/media_1.png" alt=""></a>
+            <a href="page/job.html"><img src="https://static.didapinche.com/pics//g/home/gongzuojihui02.png" alt=""></a>
+            <a href="about/about.html"><img src="https://static.didapinche.com/pics//g/home/aboutus_2.png" alt=""></a>
+        </div>
+        <div class="brands">
+            <div class="con">
+                <dl>
+                    <dt>了解产品</dt>
+                    <dd><a href="./taxi/client.html">出租车</a></dd>
+                    <dd><a href="./shunfengche.html">顺风车</a></dd>
+                </dl>
+                <dl>
+                    <dt>联系我们</dt>
+                    <dd>电话：<a href="tel:4001630886">400-163-0886</a></dd>
+                    <dd>地址：北京市朝阳区创远路36号院朝来科技园</dd>
+                    <dd>商务合作：bd@didachuxing.com</dd>
+                    <dd>市场推广：shichang@didachuxing.com</dd>
+                    <dd>广告招商：sales@didachuxing.com</dd>
+                    <dd>客服邮箱：kefu@didachuxing.com</dd>
+                </dl>
+                <dl>
+                    <dt><a href="./page/about.html">关于嘀嗒</a></dt>
+                    <dd><a href="./about/about.html">平台介绍</a></dd>
+                    <dd><a href="./about/media.html">媒体报道</a></dd>
+                    <dd><a href="./about/info.html">创始人团队</a></dd>
+                    <dd><a>往期活动</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>更多联系方式：前往<a href="http://dwz.cn/79G7Fj">嘀嗒出行app</a>，致电<span><a
+                        href="tel:4001630886">400-163-0886</a></span><span
+                    style="margin-left: 80px;text-decoration: underline;"><a href="yyzz.html">营业执照信息</a></span></p>
+            <!--<img src="https://static.didapinche.com/pics//g/home/footerCopy03.png" alt="">-->
+        </div>
+        <div class="footer_logo">
+            <p><span>Copyright ©2013－2019 嘀嗒出行（didachuxing.com）版权所有</span></p>
+            <p><span>京ICP备14055018号 京公网安备11010502033733</span><span>隶属于北京畅行信息技术有限公司</span></p>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-3.4.2.jquery.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: 2000,
+            // 如果需要分页器
+            pagination: '.swiper-pagination',
+        })
+        $('.nav .hover-dropdown').hover(function () {
+            if ($(this).hasClass('hide-ms') && $(window).width() < 758) {
+                return
+            }
+            $('ul', this).stop().slideDown(200);
+            $(this).children('a:first').addClass("hov");
+        }, function () {
+            $('ul', this).stop().slideUp(100);
+            $(this).children('a:first').removeClass("hov");
+        });
+    </script>
 </body>
 </html>

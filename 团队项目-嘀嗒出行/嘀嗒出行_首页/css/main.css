@@ -1,0 +1,33 @@
+body{font-family: 'PingFang-SC-Light';}
+.main{padding-top: 70px}
+.swiper-container{padding-bottom: 8vw;}
+.swiper-container img{width: 100%;} 
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 0;z-index: 999;}
+.swiper-pagination-bullet-active{background-color: #fea901}
+.phoneAndDown {position: relative;height: 43vw;background: url('https://static.didapinche.com/pics//g/home/upBG.png') no-repeat 96% 0%;}
+.phoneAndDown>img{position: absolute;left: 50%;transform: translateX(-50%);width: 80%;}
+.erweima{position: absolute;width: 30vw;left: 57%;bottom: 10vw;height: 10vw;display: flex;}
+.erweima img{float: left;width: 10vw;}
+.erweima .right{float: right;width: 20vw;height: 100%;display: flex;flex-direction: column;justify-content: space-between;align-items: flex-end}
+.erweima a{text-decoration: none;display: block;width: 15vw;height: 4vw;display: flex;justify-content: center;align-items: center;color:#fff;font-size: 2vw;background-color: #fea901;border-radius: 8%;}
+.erweima a:last-child{bottom: 0;}
+.sub-menu{height: 44vw;width: 100vw;margin-top: 2vw;overflow: hidden;display: flex;padding: 0 8vw;justify-content: space-between;align-items: center;background: url('https://static.didapinche.com/pics//g/home/downBG.png') no-repeat 6% 0;background-size: contain;}
+.sub-menu img{width: calc(80vw / 3);float: left}
+.brands{position: relative;margin: 3vw ;background: url('https://static.didapinche.com/pics//g/home/brand02.png') no-repeat center;height: 18vw;background-size: cover;}
+.brands a.weixin,.brands a.weibo{position: absolute;bottom: 3.5vw;width: 4vw;}
+.brands a.weixin img,.brands a.weibo img{width: 100%;}
+.brands .weixin{left: 2.5vw;}
+.brands .weibo{left: 7.5vw;}
+.footer-copy{position: relative;margin: 7vw 3vw 3vw 3vw;padding-bottom:5px;}
+.footer-copy p{font-size: 1vw;position: absolute;top: 0;color:#7a7a7a;left: 2vw;}
+.footer-copy p a,.footer-copy p span{color:#ff8c00}
+.footer-copy img{width: 100%;}
+.brands .con{padding-top: 2vw;float: right;width: 70vw;height: 100%;}
+.brands .con dl{float: left;width: calc(100%/3);height: 100%;color:#fff}
+.brands .con dl:nth-child(1){padding-left: 6vw}
+.brands .con dl a{color:#fff}
+.brands .con dl dd{width: 100%;height: 2em;line-height: 2em;display: block;font-size: 1vw}
+.brands .con dt{font-weight: normal;font-size: 2vw}
+.footer_logo {width:90%;margin:20px auto 100px;border-top:1px solid #b3b3b3;padding-top:10px}
+.footer_logo p {width:100%;margin:0 auto;text-align:center;font-size:10px;color:#7a7a7a}
+.footer_logo span {margin-right:10px}
