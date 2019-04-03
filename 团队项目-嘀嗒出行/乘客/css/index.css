@@ -111,3 +111,13 @@
         margin: 0 auto;
         text-align: center;
     }
+    .foot .foot_r{
+        width: 49%;
+        float: left;
+        text-align: center;
+        float: left;
+    }
+    .foot img{
+        width: 124px;
+        height: 34px;
+    }
