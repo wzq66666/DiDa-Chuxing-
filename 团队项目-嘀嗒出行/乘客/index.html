@@ -4,27 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jQuery/head.js"></script>
+    <title>出租(乘客页面)</title>
 </head>
 <body>
-    <div class="">
-        <div class="">
-            <div class="">
-                <ul>
-                    <li><a href="#"><img src=""></a></li>
-                    <li><a href="#"><img src=""></a></li>
-                    <li><a href="#"><img src=""></a></li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <li></li>
-            <li></li>
-            <li></li>
-        </div>
-    </div>
-    <div class="">
+    <div class="title">
 
     </div>
+    <div class="">
+        <div class="demo">
+            <div class="slider">
+                <ul>
+                    <li><a href="#"><img src="img/newswiper01_1.jpg"></a></li>
+                    <li><a href="#"><img src="img/newswiper02_1.jpg"></a></li>
+                    <li><a href="#"><img src="img/newswiper03_1.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="circle">
+                <li></li>
+                <li></li>
+                <li></li>
+            </div>
+        </div>
+    </div>
+    <div class="steps">
+        <div class="steps_r">
+            <img src="img/stepsTitle.png">
+        </div>
+        <div class="steps_cont">
+            <div class="steps_cont_r"></div>
+            <ul>
+                <li style="display:block"><img src="img/04_1.png"></li>
+                <li><img src="img/05_1.png"></li>
+                <li><img src="img/06_1.png"></li>
+            </ul>
+            <div class="button">
+                <a href="javascript:;" class="leftFn"></a>
+                <a href="javascript:;" class="rightFn"></a>
+            </div>
+            <ol>
+                <li>
+                    <h3>选择上下车地点</h3>
+                    <p>
+                        登录App后，系统会自动定位到当前位置，您可以使用该地址作为上车地点；或者移动地图上的图钉到指定位置，设为上车地点；然后选择下车地点
+                    </p>
+                </li>
+                <li style="display:none">
+                    <h3>呼叫出租车</h3>
+                    <p>
+                        选择打车人数，设定出发时间，点击“呼叫出租车”，等待司机接单
+                    </p>
+                </li>
+                <li style="display:none">
+                    <h3>付款评价</h3>
+                    <p>
+                        到达指定的送载地址后，在结算页面选择一种付款方式即可付款；付款完成后您将会看到您的实际支付费用详情，同时可以对师傅进行评价
+                    </p>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot_l">
+            <a href="javascript:;"><img src="img/concatZhaomu.png"></a>
+        </div>
+        <div class="foot_r">
+            <a href="javascript:;"><img src="img/concatWeixin02.png"></a>
+        </div>
+    </div>
+
+    <script src="jQuery/jquery.min.js"></script>
+    <script src="jQuery/YuxiSlider.jQuery.min.js"></script>
+    <script>
+        $(".slider").YuxiSlider({
+            width:1519, //容器宽度
+            height:515, //容器高度
+            control:$('.control'), //绑定控制按钮
+            during:3000, //间隔4秒自动滑动
+            speed:800, //移动速度0.8秒
+            mousewheel:false, //是否开启鼠标滚轮控制
+            direkey:false //是否开启左右箭头方向控制
+        });
+    </script>
 </body>
 </html>
