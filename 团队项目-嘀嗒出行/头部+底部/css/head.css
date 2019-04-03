@@ -21,4 +21,16 @@
 #neirong ul{
     float: left;
     list-style: none;
+    width: 577px;
+    border: 1px solid red;
+    margin-left: 200px;
+    font-size: 13px;
+}
+#neirong ul li{
+    float: left;
+    padding: 16px;
+}
+#neirong ul li a{
+    text-decoration: none;
+    color: #555;
 }
