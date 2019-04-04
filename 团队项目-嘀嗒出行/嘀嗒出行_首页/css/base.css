@@ -35,14 +35,11 @@ body {font-family: "PingFangSC-Ultralight", sans-serif;}
 .navbar-default .navbar-toggle .icon-bar {background-color: #fea901}
 .navbar-default .navbar-toggle:visited {background-color: #fff}
 .navbar-default .navbar-toggle:visited .icon-bar {background-color: #fea901}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:active {background-color: #fea901}
-.navbar-default .navbar-toggle:hover .icon-bar,
-.navbar-default .navbar-toggle:active .icon-bar {background-color: #fff}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:active {background-color: #fea901}
+.navbar-default .navbar-toggle:hover .icon-bar,.navbar-default .navbar-toggle:active .icon-bar {background-color: #fff}
 .navbar-default .navbar-toggle:focus {background-color: #fff}
 .navbar-default .navbar-toggle:hover:focus {background-color: #fea901}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {border: none}
+.navbar-default .navbar-collapse,.navbar-default .navbar-form {border: none}
 li {list-style: none;}
 ul {padding: 0;}
 .navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover {color: #fea901;background-color: #fff;}
