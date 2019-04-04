@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer-copy{
+    margin: 3vw 3vw 3vw 3vw;
+}
+.footer_logo{
+    width: 90%;
+    margin: 20px auto 100px;
+    border-top: 1px solid #b3b3b3;
+    padding-top: 10px;
+}
+.footer_logo p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+    color: #7a7a7a;
+}
