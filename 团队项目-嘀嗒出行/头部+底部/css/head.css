@@ -5,12 +5,11 @@
 #head{
     width: 100%;
     height: 70px;
-    background-color: pink;
+    border-bottom: 1px solid orange;
 }
 #neirong{
     width: 1140px;
     height: 70px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 #pic1{
@@ -21,4 +20,57 @@
 #neirong ul{
     float: left;
     list-style: none;
+    margin-left: 200px;
+    font-size: 13px;
+    line-height: 38px;
+    width: 362px;
+}
+#neirong ul li{
+    float: left;
+    /* padding: 16px; */
+    margin-left: 27px;
+    margin-top: 17px;
+}
+#neirong ul li a{
+    text-decoration: none;
+    color: #555;
+}
+#sanjiao{
+    vertical-align: middle;
+    display: inline-block;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+#neirong ul li a:hover{
+    color: #fea901;
+    border-bottom:1px solid #fea901;
+    padding: 5px 0px;
+}
+#ol1{
+    width: 42px;
+    height: 68px;
+    text-align: center;
+    display: none;
+    background-color: white;
+    /* border:1px solid pink; */
+}
+#ol1 span{
+    width: 33px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+}
+#ol2{
+    width: 65px;
+    height: 108px;
+    text-align: center;
+    display: none;
+    background-color: white;
+}
+#ol2 span{
+    width: 33px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
 }
